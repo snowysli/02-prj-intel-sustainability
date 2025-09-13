@@ -29,7 +29,7 @@ body {
 
 	z-index: 2;
 	text-align: center;
-	font-size: 1.15em;    /* Slightly larger text */
+	font-size: 1.1em;    /* Slightly larger text */
 }
 .timeline-img-container:hover .timeline-text {
 	display: block;
@@ -42,7 +42,7 @@ header {
 		top: 0;
 		left: 0;
 		background: linear-gradient(90deg, #1d3897 0%, #4c94db 60%, #2b7abb 100%);
-		padding: 18px 0 24px 0;
+		padding: 14px 0 18px 0;
 		box-shadow: 0 2px 12px rgba(25,118,210,0.10);
 		margin-bottom: 0;
 		z-index: 100;
@@ -50,7 +50,7 @@ header {
 
 /* Style for the Intel logo in header bar */
 header img {
-	width: 120px; /* Resize SVG logo */
+	width: 110px; /* Resize SVG logo */
 	display: block;
 		margin: 0 auto 8px auto;
 	background: transparent;
@@ -180,16 +180,16 @@ section h3 {
 /* Make font size larger on small screens */
 @media (max-width: 700px) {
   body {
-    font-size: 1.15em; /* Increase base font size */
+    font-size: 1.1em; /* Increase base font size */
   }
   header h1 {
-    font-size: 1.7em; /* Make header text bigger */
+    font-size: 1.65em; /* Make header text bigger */
   }
   section h2, section h3 {
-    font-size: 1.15em; /* Make timeline card headings bigger */
+    font-size: 1.1em; /* Make timeline card headings bigger */
   }
   .timeline-text {
-    font-size: 1.2em; /* Make timeline overlay text bigger */
+    font-size: 1.15em; /* Make timeline overlay text bigger */
   }
 }
 
